@@ -1,6 +1,6 @@
 psutil
 colorama
-object3
+librarie
 aiohttp
 requests
 discum
