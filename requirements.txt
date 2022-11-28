@@ -1,6 +1,6 @@
 psutil
 colorama
-librarie
+iua
 aiohttp
 requests
 discum
