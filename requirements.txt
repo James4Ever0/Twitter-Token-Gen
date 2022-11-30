@@ -1,6 +1,5 @@
 psutil
 colorama
-b4b
-aiohttp
+aihttps
 requests
 discum
