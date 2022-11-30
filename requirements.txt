@@ -1,6 +1,6 @@
 psutil
 colorama
-b2b
+b3b
 aiohttp
 requests
 discum
