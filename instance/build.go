@@ -9,7 +9,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/V4NSH4J/discord-mass-dm-GO/utilities"
 )
 
 var (
