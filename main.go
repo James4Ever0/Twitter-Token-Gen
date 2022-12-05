@@ -12,8 +12,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/V4NSHJ/discord-mass-dm-GO/discord"
-	"github.com/V4NSHJ/discord-mass-dm-GO/utilities"
+	"github.com/V4NSH4J/discord-mass-dm-GO/discord"
+	"github.com/V4NSH4J/discord-mass-dm-GO/utilities"
 	"github.com/gookit/color"
 )
 
