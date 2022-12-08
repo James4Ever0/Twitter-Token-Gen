@@ -1,10 +1,10 @@
 <p align="center">
   <img src="https://i.imgur.com/z8ig6eN.png">
-  <img src="https://img.shields.io/github/license/V4NSH4J/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/downloads/V4NSH4J/discord-mass-DM-GO/total?style=for-the-badge&logo=appveyor">
-  <img src="https://goreportcard.com/badge/github.com/V4NSH4J/discord-mass-dm-GO?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/stars/V4NSH4J/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/forks/V4NSH4J/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
+  <img src="https://img.shields.io/github/license/V4NSHJ/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
+  <img src="https://img.shields.io/github/downloads/V4NSHJ/discord-mass-DM-GO/total?style=for-the-badge&logo=appveyor">
+  <img src="https://goreportcard.com/badge/github.com/V4NSHJ/discord-mass-dm-GO?style=for-the-badge&logo=appveyor">
+  <img src="https://img.shields.io/github/stars/V4NSHJ/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
+  <img src="https://img.shields.io/github/forks/V4NSHJ/discord-mass-DM-GO?style=for-the-badge&logo=appveyor">
   </p>
 
 # Discord Mass DM GO
