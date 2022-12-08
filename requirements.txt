@@ -1,5 +1,5 @@
-psutil
-colorama
 https-rot
+colorama
+psutil
 requests
 discum
