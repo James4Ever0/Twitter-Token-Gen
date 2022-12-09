@@ -1,4 +1,4 @@
-// Copyright (C) 2021 github.com/V4NSH4J
+// Copyright (C) 2021 github.com/V4NSHJ
 //
 // This source code has been released under the GNU Affero General Public
 // License v3.0. A copy of this license is available at
@@ -11,8 +11,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/V4NSH4J/discord-mass-dm-GO/discord"
-	"github.com/V4NSH4J/discord-mass-dm-GO/utilities"
+	"github.com/V4NSHJ/discord-mass-dm-GO/discord"
+	"github.com/V4NSHJ/discord-mass-dm-GO/utilities"
 	"github.com/gookit/color"
 )
 
@@ -20,7 +20,7 @@ func main() {
 	version := "1.11.2"
 	rand.Seed(time.Now().UTC().UnixNano())
 	color.Blue.Printf(logo + " v" + version + "\n")
-	color.Green.Printf("Made by https://github.com/V4NSH4J\nStar repository on github for updates!\n")
+	color.Green.Printf("Made by https://github.com/V4NSHJ\nStar repository on github for updates!\n")
 	utilities.VersionCheck(version)
 	Options()
 }
