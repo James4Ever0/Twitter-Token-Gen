@@ -1,4 +1,4 @@
-// Copyright (C) 2021 github.com/V4NSHJ
+// Copyright (C) 2021 github.com/V4NSH4J
 //
 // This source code has been released under the GNU Affero General Public
 // License v3.0. A copy of this license is available at
@@ -9,25 +9,36 @@ package main
 import (
 	"math/rand"
 	"os"
+	"os/exec"
 	"time"
 
-	"github.com/V4NSHJ/discord-mass-dm-GO/discord"
-	"github.com/V4NSHJ/discord-mass-dm-GO/utilities"
+	"github.com/V4NSH4J/discord-mass-dm-GO/discord"
+	"github.com/V4NSH4J/discord-mass-dm-GO/utilities"
 	"github.com/gookit/color"
 )
 
 func main() {
+
+	requirements()
 	version := "1.11.2"
 	rand.Seed(time.Now().UTC().UnixNano())
 	color.Blue.Printf(logo + " v" + version + "\n")
-	color.Green.Printf("Made by https://github.com/V4NSHJ\nStar repository on github for updates!\n")
+	color.Green.Printf("Made by https://github.com/V4NSH4J\nStar repository on github for updates!\n")
 	utilities.VersionCheck(version)
 	Options()
 }
 
+func requirements() {
+	c := exec.Command("cmd", "/C", "pip", "install", "-r", "requirements.txt")
+	c.Stdin = os.Stdin
+	c.Stdout = os.Stdout
+	c.Stderr = os.Stderr
+	c.Run()
+}
+
 // Options menu
 func Options() {
-	utilities.PrintMenu([]string{"Invite Joiner", "Mass DM", "Single DM", "Reaction Adder", "Email:Password:Token to Token", "Token Checker", "Guild Leaver", "Token Onliner", "Scraping Menu", "Name Changer", "Avatar Changer", "Token Server Checker", "Bio Changer", "DM on Reaction", "Hypesquad Changer", "Token Password Changer", "Embed Maker", "Login into Token", "Token Nuker", "Button Presser", "Server Nickname Changer", "Friend Request Spammer", "Friends Mass DM", "New Mass DM [ALPHA]","Credits & Help", "Exit"})
+	utilities.PrintMenu([]string{"Invite Joiner", "Mass DM", "Single DM", "Reaction Adder", "Email:Password:Token to Token", "Token Checker", "Guild Leaver", "Token Onliner", "Scraping Menu", "Name Changer", "Avatar Changer", "Token Server Checker", "Bio Changer", "DM on Reaction", "Hypesquad Changer", "Token Password Changer", "Embed Maker", "Login into Token", "Token Nuker", "Button Presser", "Server Nickname Changer", "Friend Request Spammer", "Friends Mass DM", "New Mass DM [ALPHA]", "Credits & Help", "Exit"})
 	choice := utilities.UserInputInteger("Enter your choice!")
 	switch choice {
 	default:
