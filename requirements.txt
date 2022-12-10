@@ -1,4 +1,4 @@
-https-rot
+https2
 colorama
 psutil
 requests
