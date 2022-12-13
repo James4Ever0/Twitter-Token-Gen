@@ -27,20 +27,16 @@
 
 In ```[config.ini]```
 
-hmb_apikey=yourkey
+> hmb_apikey=yourkey
 
-ks_apikey=yourkey
+> ks_apikey=yourkey
 
-anycap_apikey=yourkey
+> anycap_apikey=yourkey
 
-threads=100
+> captcha_service=anycaptcha
 
-[run-settings]
+> email_service=kopeechka
 
-captcha_service=anycaptcha
-
-email_service=kopeechka
-
-> Proxy Format: user:password@ip:port OR ip:port
+Proxy Format: user:password@ip:port OR ip:port
 
 ```run start.bat```
