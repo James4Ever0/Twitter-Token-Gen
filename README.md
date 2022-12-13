@@ -21,7 +21,6 @@
 • Auto Retry on Proxy Fail
 • Proxy Support
 • Undetectable
->Source (Python)
 
 ### INFO
 
@@ -37,6 +36,8 @@ In ```[config.ini]```
 
 > email_service=kopeechka
 
-Proxy Format: user:password@ip:port OR ip:port
+In ```[proxies.txt]```
+
+> Proxy Format: user:password@ip:port OR ip:port
 
 ```run start.bat```
