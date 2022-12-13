@@ -5,10 +5,8 @@
   
   (This tool is able to Gen / Reg, 200 Tokens per minute)
   
-  ![image](https://media.discordapp.net/attachments/1029152294199099443/1052309501698650172/ef86175d1167d58247e825ac7299d1d4.gif)
-
-
-  
+  ![gif](https://media.discordapp.net/attachments/1029152294199099443/1052309501698650172/ef86175d1167d58247e825ac7299d1d4.gif)
+ 
 </div>
 
 --------------------------------------
