@@ -5,7 +5,8 @@
   
   (This tool is able to Gen / Reg, 200 Tokens per minute)
   
-![Alt Text](https://imgur.com/2XhXIQQ)
+  
+  ![Alt Text](https://imgur.com/2XhXIQQ)
 
  
 </div>
