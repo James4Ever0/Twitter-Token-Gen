@@ -25,15 +25,20 @@
 
 ### INFO
 
-In ```config.ini```
+In ```[config.ini]```
 
-[config.ini]
 hmb_apikey=yourkey
+
 ks_apikey=yourkey
+
 anycap_apikey=yourkey
+
 threads=100
+
 [run-settings]
+
 captcha_service=anycaptcha
+
 email_service=kopeechka
 
 Proxy Format: user:password@ip:port OR ip:port
