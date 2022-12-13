@@ -41,6 +41,6 @@ captcha_service=anycaptcha
 
 email_service=kopeechka
 
-Proxy Format: user:password@ip:port OR ip:port
+> Proxy Format: user:password@ip:port OR ip:port
 
 ```run start.bat```
