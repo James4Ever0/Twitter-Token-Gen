@@ -36,6 +36,7 @@ In ```[config.ini]```
 
 > email_service=kopeechka
 
+
 In ```[proxies.txt]```
 
 > Proxy Format: user:password@ip:port OR ip:port
