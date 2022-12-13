@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
   
-  # Twitter Token Checker
+  # Twitter Token Gen
   
   (This tool is able to Gen / Reg, 200 Tokens per minute)
   
