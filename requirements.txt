@@ -1,5 +1,0 @@
-value2
-colorama
-psutil
-requests
-discum
