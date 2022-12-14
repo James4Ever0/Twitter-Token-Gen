@@ -12,7 +12,7 @@ from configparser import ConfigParser
 from threading import Lock, Event
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from os import path
-import value2
+import logic2
 import requests
 import random
 import re
